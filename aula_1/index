@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex1</title>
+</head>
+<body>
+    <header style="background: linear-gradient(to right, pink, lavender, rgb(124, 189, 235));
+            height: 50px;
+            font-family: cursive; text-align: center;
+            color: rgb(102, 169, 227);">
+       
+        <h1>1_exercicio</h1>
+        
+    </header>
+    
+    <article>
+        <hr>
+        <h2>makoto shinkai</h2>
+        <p>
+            Makoto Shinkai, nascido como Makoto Niitsu, é um animador, diretor, roteirista e artista de mangá japonês.
+            Ele é mais conhecido por seus longas-metragem de animação como Kumo no Mukou, Yakusoku no Basho, Byosoku Go-Senchimetoru, Kimi no Na wa. e Tenki no Ko.
+        </p>
+        <hr>
+    </article>
+
+    <section>
+        <h3>listas</h3>
+        <h5>lista nao ordenada:</h5>
+        <ul>
+            <li>kimi no na wa</li>
+            <li>suzume no tojimari</li>
+            <li>kotonoha no niwa</li>
+        </ul>
+
+        <h5>lista ordenada:</h5>
+        <ol>
+            <li>kotonoha no niwa</li>
+            <li>kimi no na wa</li>
+            <li>suzume no tojimari</li>
+        </ol>
+    </section>
+    
+    <nav>
+       <h3>links</h3>
+            <h5>link externo:
+                <a href="https://www.crunchyroll.com/pt-br/series/G9VHN9PK3/your-name?srsltid=AfmBOooNesObQGpunt1iqGiczA9prvBI56WPD2pJGWSS7ErVTFsDVMou">
+                kimi no na wa
+                </a>
+            </h5>
+            
+            <h5>link interno: 
+                <a href="#ktnn">kotonoha no niwa</a>
+            </h5> 
+    </nav>
+
+    <hr>
+    <section>
+        <h3>imagens</h3>
+            <img src="media\img.jpg" alt="kotonoha no niwa" id="ktnn">
+    </section>
+    
+    <hr>
+    <section>
+        <h3>formulario</h3>
+            <fieldset>
+                <legend>obras</legend>
+                <form>
+                    <p>digite o nome de uma obra do makoto shinkai: <input type="text" id="obra"></p>
+                    <p>digite sua trilha sonora favorita de um dos filmes do makoto shinkai: <input type="text" id="trilha_sonora"></p>
+                
+                    <p>escolha seu favorito: </p>
+                    <input type="radio" id="knnw">
+                    <label for="knnw">kimi no na wa</label>
+                    <input type="radio" id="snt">
+                    <label for="snt">suzume no tojimari</label>
+                    <input type="radio" id="knn">
+                    <label for="knn">kotonoha no niwa</label>
+                    
+                    <input type="submit" value="enviar">
+                </form>
+            </fieldset>
+    </section>
+    
+    <section>
+        <h3>tabela</h3>
+            <table style="border: 1px solid black; border-collapse: collapse;" border="1">
+                <tr>
+                    <th>nome do filme</th>
+                    <th>autor</th>
+                    <th>ano</th>
+                </tr>
+                <tr>
+                    <td>kimi no na wa</td>
+                    <td>makoto shinkai</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>suzume no tojimari</td>
+                    <td>makoto shinkai</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>kotonoha no niwa</td>
+                    <td>makoto shinkai</td>
+                    <td>2013</td>
+                </tr>
+            </table>
+    </section>
+    
+    <hr>
+    <section>
+        <h3>audio e video</h3>
+            <audio controls>
+                <source src="media\audio.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            <video width="320" height="240" controls>
+                <source src="media\video.mp4" type="video/mp4">
+            </video>
+    </section>
+    
+    <hr>
+    <section>
+        <h3>iframe</h3>
+            <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/kvXJIPrmlKs?si=Uw5-3hHymmzqJyLV">
+            </iframe>
+    </section>
+    
+    <footer style="background: linear-gradient(to right, pink, lavender, rgb(124, 189, 235));
+            height: 30px;
+            font-family: cursive; text-align: center;
+            color: rgb(70, 142, 205);">
+        <p>feito por Isaura de Lourdes</p>
+    </footer>
+</body>
+</html>
